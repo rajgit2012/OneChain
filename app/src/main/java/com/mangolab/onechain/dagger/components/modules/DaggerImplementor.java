@@ -24,7 +24,7 @@ public class DaggerImplementor implements IDagger {
 
     @Override
     public void generateNewItem() {
-        System.out.println("Generate new item !");
+        System.out.println("Generate new items!");
     }
 
     private void generateToken(){
