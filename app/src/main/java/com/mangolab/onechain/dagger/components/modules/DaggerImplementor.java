@@ -9,7 +9,7 @@ import java.util.List;
 public class DaggerImplementor implements IDagger {
     @Override
     public void injectNewItem() {
-        System.out.println("Inject new item test!");
+        System.out.println("Inject new item test going on!");
     }
 
     @Override
