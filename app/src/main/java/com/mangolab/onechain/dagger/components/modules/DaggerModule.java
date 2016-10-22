@@ -11,4 +11,8 @@ public class DaggerModule {
     private boolean isApiEndPointAvailable(){
        return false;
     }
+
+    private void injectModule(){
+
+    }
 }
