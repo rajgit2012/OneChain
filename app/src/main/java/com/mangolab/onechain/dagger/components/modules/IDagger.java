@@ -9,4 +9,5 @@ import java.util.List;
 public interface IDagger {
     void injectNewItem();
     List<String> allInjectedItems();
+    List<String> allUnInjectedItems();
 }

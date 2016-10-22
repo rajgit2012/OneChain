@@ -16,4 +16,9 @@ public class DaggerImplementor implements IDagger {
     public List<String> allInjectedItems() {
         return null;
     }
+
+    @Override
+    public List<String> allUnInjectedItems() {
+        return null;
+    }
 }
