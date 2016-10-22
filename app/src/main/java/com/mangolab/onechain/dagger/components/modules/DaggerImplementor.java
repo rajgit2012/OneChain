@@ -28,4 +28,8 @@ public class DaggerImplementor implements IDagger {
     private void invalidateToken(){
 
     }
+
+    private void invalidateOldToken(){
+
+    }
 }
