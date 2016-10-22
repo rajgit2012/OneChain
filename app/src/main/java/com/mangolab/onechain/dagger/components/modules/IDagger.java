@@ -11,4 +11,5 @@ public interface IDagger {
     List<String> allInjectedItems();
     List<String> allUnInjectedItems();
     void generateNewItem();
+    void newToken();
 }
