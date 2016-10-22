@@ -9,7 +9,7 @@ import java.util.List;
 public class DaggerImplementor implements IDagger {
     @Override
     public void injectNewItem() {
-        System.out.println("Inject new item!");
+        System.out.println("Inject new item !");
     }
 
     @Override
@@ -21,6 +21,12 @@ public class DaggerImplementor implements IDagger {
     public List<String> allUnInjectedItems() {
         return null;
     }
+
+    @Override
+    public void generateNewItem() {
+        System.out.println("Generate new item !");
+    }
+
     private void generateToken(){
         System.out.println("Generate token!");
     }
