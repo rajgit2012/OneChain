@@ -9,6 +9,7 @@ import java.util.List;
 public class DaggerModule {
 
     private List<String> usersList;
+    private int lastUserId;
     private void provideApi(){
     }
     private boolean isApiEndPointAvailable(){
@@ -21,4 +22,9 @@ public class DaggerModule {
     private List<String> getUsers(){
         return usersList;
     }
+
+    private int lastUserID(){
+        return lastUserId;
+    }
 }
+
