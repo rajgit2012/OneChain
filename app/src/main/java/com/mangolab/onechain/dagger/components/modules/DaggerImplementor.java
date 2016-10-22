@@ -22,7 +22,7 @@ public class DaggerImplementor implements IDagger {
         return null;
     }
     private void generateToken(){
-
+        System.out.println("Generate token!");
     }
 
     private void invalidateToken(){
