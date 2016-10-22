@@ -30,6 +30,6 @@ public class DaggerImplementor implements IDagger {
     }
 
     private void invalidateOldToken(){
-
+        System.out.println("Invalid token!");
     }
 }
