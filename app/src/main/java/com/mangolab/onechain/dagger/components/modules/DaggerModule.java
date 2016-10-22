@@ -6,7 +6,9 @@ package com.mangolab.onechain.dagger.components.modules;
 
 public class DaggerModule {
 
-    public void provideApi(){
-
+    private void provideApi(){
+    }
+    private boolean isApiEndPointAvailable(){
+       return false;
     }
 }
