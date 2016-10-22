@@ -24,4 +24,8 @@ public class DaggerImplementor implements IDagger {
     private void generateToken(){
 
     }
+
+    private void invalidateToken(){
+
+    }
 }
