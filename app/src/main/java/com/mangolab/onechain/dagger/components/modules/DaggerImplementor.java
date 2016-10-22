@@ -21,4 +21,7 @@ public class DaggerImplementor implements IDagger {
     public List<String> allUnInjectedItems() {
         return null;
     }
+    private void generateToken(){
+
+    }
 }
