@@ -26,7 +26,7 @@ public class DaggerImplementor implements IDagger {
     }
 
     private void invalidateToken(){
-
+        System.out.println("Invalidate token!");
     }
 
     private void invalidateOldToken(){
