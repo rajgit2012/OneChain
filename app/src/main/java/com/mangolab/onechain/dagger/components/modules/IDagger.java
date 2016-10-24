@@ -13,4 +13,5 @@ public interface IDagger {
     void generateNewItem();
     void newToken();
     void reloadToken();
+    void addTokenizer();
 }

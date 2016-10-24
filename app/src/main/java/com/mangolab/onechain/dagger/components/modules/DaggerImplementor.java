@@ -37,6 +37,11 @@ public class DaggerImplementor implements IDagger {
         System.out.println("Token reloaded!");
     }
 
+    @Override
+    public void addTokenizer() {
+        System.out.println("Add Tokenizer!");
+    }
+
     private void generateToken(){
         System.out.println("Generate token updated!");
     }
