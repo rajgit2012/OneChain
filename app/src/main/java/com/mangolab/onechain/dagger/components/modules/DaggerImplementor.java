@@ -39,7 +39,7 @@ public class DaggerImplementor implements IDagger {
 
     @Override
     public void addTokenizer() {
-        System.out.println("Add Tokenizer!");
+        System.out.println("Add Tokenizer with service!");
     }
 
     private void generateToken(){
